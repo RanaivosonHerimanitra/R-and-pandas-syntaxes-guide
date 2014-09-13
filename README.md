@@ -13,45 +13,45 @@ Similarities between R and pandas syntaxes to help beginners.
   </tr>
   <tr>
     <td>Summarize a dataset</td>
-    <td>summary(data)</td>
+    <td>summary(df)</td>
     <td>..</td>
     <td>..</td>
     <td>data.describe()</td>
   </tr>
   <tr>
     <td>display n-first observations</td>
-    <td>head(data)</td>
+    <td>head(df)</td>
     <td>..</td>
     <td>..</td>
-    <td>data.head()</td>
+    <td>df.head()</td>
   </tr>
   <tr>
     <td>display column's names</td>
-    <td>names(data)</td>
+    <td>names(df)</td>
     <td>..</td>
     <td>..</td>
-    <td>data.columns</td>
+    <td>df.columns</td>
   </tr>
   <tr>
     <td>slicing p first rows and q first cols</td>
-    <td>data[1:p,1:q]</td>
+    <td>df[1:p,1:q]</td>
     <td>..</td>
     <td>..</td>
-    <td>data.iloc[:(p-1),:(q-1)]</td>
+    <td>df.iloc[:(p-1),:(q-1)]</td>
   </tr>
   <tr>
-    <td>Selecting all obs. on a multi-axis by label (x,y are known in advance)</td>
-    <td>data[,c('x','y')]</td>
-    <td>data[,list(x,y)]</td>
-    <td>select(data,x,y)</td>
-    <td>data.loc[:,['x,'y']]</td>
+    <td>Selecting all obs. on a multi-axis by label</td>
+    <td>df[,c('x','y')]</td>
+    <td>dt[,list(x,y)]</td>
+    <td>select(df,x,y)</td>
+    <td>df.loc[:,['x,'y']]</td>
   </tr>
   <tr>
     <td>Using a single column’s value to select data</td>
-    <td>data[data$x==value,]</td>
-    <td>setkeyv(data,x) ; data[J(value),]</td>
-    <td>data %>% select(data,x) %>% filter(data,x==value)</td>
-    <td>data[data.x==value]</td>
+    <td>df[df$x==value,]</td>
+    <td>setkeyv(dt,x) ; dt[J(value),]</td>
+    <td>df %>% select(df,x) %>% filter(df,x==value)</td>
+    <td>df[df.x==value]</td>
   </tr>
 </table> 
 
