@@ -19,4 +19,18 @@ Similarities between R and pandas syntaxes
     <td>..</td>
     <td>data.describe()</td>
   </tr>
+  <tr>
+    <td>display n-firt observations</td>
+    <td>head(data)</td>
+    <td>..</td>
+    <td>..</td>
+    <td>data.head()</td>
+  </tr>
+  <tr>
+    <td>column's names</td>
+    <td>names(data)</td>
+    <td>..</td>
+    <td>..</td>
+    <td>data.columns</td>
+  </tr>
 </table> 
