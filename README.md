@@ -46,9 +46,16 @@ Similarities between R and pandas syntaxes to help beginners.
     <td>select(data,x,y)</td>
     <td>data.loc[:,['x,'y']]</td>
   </tr>
+  <tr>
+    <td>Using a single column’s value to select data</td>
+    <td>data[data$x==value,]</td>
+    <td>setkeyv(data,x) ; data[J(value),]</td>
+    <td>data %>% select(data,x) %>% filter(data,x==value)</td>
+    <td>data[data.x==value]</td>
+  </tr>
 </table> 
 
 
 Feel free to contribute:
 * by adding your favorite R or python commands even showing more complex tasks on both the 2 languages
-* by adding links (reproducible codes such as ipython notebook or Rpubs)
+* Reproducible examples such as ipython notebooks or Rpubs are also welcome.
