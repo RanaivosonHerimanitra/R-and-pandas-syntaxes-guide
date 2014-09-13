@@ -42,8 +42,8 @@ Similarities between R and pandas syntaxes to help beginners.
   <tr>
     <td>Selecting all obs. on a multi-axis by label (x,y are known in advance)</td>
     <td>data[,c('x','y')]</td>
-    <td>..</td>
-    <td>..</td>
+    <td>data[,list(x,y)]</td>
+    <td>select(data,x,y)</td>
     <td>data.loc[:,['x,'y']]</td>
   </tr>
 </table> 
