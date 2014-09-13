@@ -1,8 +1,7 @@
 R-and-pandas-syntaxes-guide
 ===========================
 
-Similarities between R and pandas syntaxes
-
+Similarities between R and pandas syntaxes to help beginners.
 
  <table style="width:100%">
   <tr>
@@ -34,3 +33,6 @@ Similarities between R and pandas syntaxes
     <td>data.columns</td>
   </tr>
 </table> 
+
+
+### Feel free to contribute by adding your favorite R or python commands
