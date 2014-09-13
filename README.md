@@ -19,20 +19,27 @@ Similarities between R and pandas syntaxes to help beginners.
     <td>data.describe()</td>
   </tr>
   <tr>
-    <td>display n-firt observations</td>
+    <td>display n-first observations</td>
     <td>head(data)</td>
     <td>..</td>
     <td>..</td>
     <td>data.head()</td>
   </tr>
   <tr>
-    <td>column's names</td>
+    <td>display column's names</td>
     <td>names(data)</td>
     <td>..</td>
     <td>..</td>
     <td>data.columns</td>
   </tr>
+  <tr>
+    <td>slicing p first rows and q first cols</td>
+    <td>data[1:p,1:q]</td>
+    <td>..</td>
+    <td>..</td>
+    <td>data.iloc[:(p-1),:(q-1)]</td>
+  </tr>
 </table> 
 
 
-### Feel free to contribute by adding your favorite R or python commands
+#### Feel free to contribute by adding your favorite R or python commands
