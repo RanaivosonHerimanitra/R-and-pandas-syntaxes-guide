@@ -49,4 +49,6 @@ Similarities between R and pandas syntaxes to help beginners.
 </table> 
 
 
-#### Feel free to contribute by adding your favorite R or python commands
+Feel free to contribute:
+* by adding your favorite R or python commands even showing more complex tasks on both the 2 languages
+* by adding links (reproducible codes such as ipython notebook or Rpubs)
