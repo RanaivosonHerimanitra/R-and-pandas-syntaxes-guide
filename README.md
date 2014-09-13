@@ -39,6 +39,13 @@ Similarities between R and pandas syntaxes to help beginners.
     <td>..</td>
     <td>data.iloc[:(p-1),:(q-1)]</td>
   </tr>
+  <tr>
+    <td>Selecting all obs. on a multi-axis by label (x,y are known in advance)</td>
+    <td>data[,c('x','y')]</td>
+    <td>..</td>
+    <td>..</td>
+    <td>data.loc[:,['x,'y']]</td>
+  </tr>
 </table> 
 
 
