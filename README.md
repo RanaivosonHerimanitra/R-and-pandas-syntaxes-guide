@@ -26,6 +26,13 @@ Similarities between R and pandas syntaxes to help beginners.
     <td>df.head()</td>
   </tr>
   <tr>
+    <td>Select a column</td>
+    <td>df[,'x']</td>
+    <td>dt[,x]</td>
+    <td>select(df,x)</td>
+    <td>df['x']</td>
+  </tr>
+  <tr>
     <td>display column's names</td>
     <td>names(df)</td>
     <td>..</td>
