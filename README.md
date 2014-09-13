@@ -10,11 +10,13 @@ Similarities between R and pandas syntaxes
     <td>R</td>
     <td>R::data.table</td>
     <td>R::dplyr</td>
+    <td>pandas</td>
   </tr>
   <tr>
-    <td>Summary of a dataset</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Summarize a dataset</td>
+    <td>summary(data)</td>
+    <td>..</td>
+    <td>..</td>
+    <td>data.describe()</td>
   </tr>
 </table> 
