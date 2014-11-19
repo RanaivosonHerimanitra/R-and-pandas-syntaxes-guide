@@ -1,7 +1,7 @@
 R-and-pandas-syntaxes-guide
 ===========================
 
-Similarities between R and pandas syntaxes to help beginners.
+Similarities between R and python/pandas syntaxes to help beginners.
 
  <table style="width:100%">
   <tr>
@@ -59,6 +59,13 @@ Similarities between R and pandas syntaxes to help beginners.
     <td>setkeyv(dt,x) ; dt[J(value),]</td>
     <td>df %>% select(df,x) %>% filter(df,x==value)</td>
     <td>df[df.x==value]</td>
+  </tr>
+  <tr>
+    <td>Retrieve unique values in a vector x</td>
+    <td>unique(data$x)</td>
+    <td>..</td>
+    <td>..</td>
+    <td>data.drop_duplicates([x])</td>
   </tr>
 </table> 
 
