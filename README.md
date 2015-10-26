@@ -9,7 +9,7 @@ Similarities between R and python/pandas syntaxes to help beginners.
     <td>R</td>
     <td>R::data.table</td>
     <td>R::dplyr</td>
-    <td>pandas</td>
+    <td>python(pandas,numpy,etc.)</td>
   </tr>
   <tr>
     <td>Summarize a dataset</td>
@@ -70,9 +70,9 @@ Similarities between R and python/pandas syntaxes to help beginners.
   <tr>
   <td>Pearson correlation between x and y</td>
   <td>cor(df$x,df$y)</td>
+  <td></td>
+  <td></td>
   <td>scipy.stats.pearsonr(df['x'],df['y'])</td>
-  <td></td>
-  <td></td>
   </tr>
 </table> 
 
