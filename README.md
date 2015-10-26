@@ -67,6 +67,13 @@ Similarities between R and python/pandas syntaxes to help beginners.
     <td>..</td>
     <td>data.drop_duplicates([x])</td>
   </tr>
+  <tr>
+  <td>Pearson correlation between x and y</td>
+  <td>cor(df$x,df$y)</td>
+  <td>scipy.stats.pearsonr(df['x'],df['y'])</td>
+  <td></td>
+  <td></td>
+  </tr>
 </table> 
 
 
